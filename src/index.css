@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Fredoka:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Bubblegum Sans", cursive;
+  --font-rounded: "Fredoka", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: #f0fdf4; /* Very light green */
+  }
+}
